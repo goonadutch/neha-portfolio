@@ -52,5 +52,23 @@
   color: #666;
   display: flex;
   flex-direction: column;
+  font-size: 0.9rem;
   gap: 15px;
+}
+
+.descriptionText {
+  color: #111;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: left;
+}
+
+@media (prefers-color-scheme: dark) {
+  .lightText {
+    color: #ccc;
+  }
+  .descriptionText {
+    color: #ccc;
+  }
 }

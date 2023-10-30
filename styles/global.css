@@ -71,3 +71,19 @@ code {
   margin: 0;
   padding: 0;
 }
+
+@media (prefers-color-scheme: dark) {
+  code,
+  pre {
+    background: #1e1e1e;
+    border: 1px solid #303030;
+    color: #f8f8f2;
+  }
+  #__next, body {
+    background-color: #111;
+    color: #ccc;
+  }
+  a {
+    color: #51a1ff;
+  }
+}

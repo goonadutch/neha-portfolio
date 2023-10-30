@@ -19,3 +19,18 @@
   align-items: center;
   gap: 10px;
 }
+
+@media (prefers-color-scheme: dark) {
+  .container {
+    color: #ccc;
+  }
+  .authorContainer {
+    color: #ccc;
+  }
+  .header {
+    color: #ccc;
+  }
+  .backToHome {
+    color: #ccc;
+  }
+}

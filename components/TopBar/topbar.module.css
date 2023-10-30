@@ -22,3 +22,13 @@
 .button:hover {
     background-color: #00000011;
 }
+
+@media (prefers-color-scheme: dark) {
+    .button {
+        color: #fff;
+        background-color: #111;
+    }
+    .button:hover {
+        background-color: #ffffff11;
+    }
+}
