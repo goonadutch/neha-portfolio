@@ -14,5 +14,8 @@ export let topBarLinks = [
     {
         title: "Email",
         url: "mailto:thisisrealneha@gmail.com"
+    },{
+        title: "Resume",
+        url: "/Neha-Mailvakanan.pdf"
     }
 ]
