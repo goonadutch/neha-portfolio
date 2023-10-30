@@ -64,6 +64,10 @@
   text-align: left;
 }
 
+.articleImage {
+  border-radius: 20px;
+}
+
 @media (prefers-color-scheme: dark) {
   .lightText {
     color: #ccc;
