@@ -1,0 +1,24 @@
+.topBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 0.5rem auto 5rem;
+}
+
+.button {
+    display: inline-block;
+    padding: 5px 12px;
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 6px;
+    min-width: 9ch;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.button:hover {
+    background-color: #00000011;
+}
