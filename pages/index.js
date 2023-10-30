@@ -5,7 +5,7 @@ import { getSortedPostsData } from '../lib/posts'
 import Link from 'next/link'
 import Date from '../components/date'
 import { siteTitle} from '../components/config'
-import { AuthorSection } from '../components/author'
+import { AuthorSection } from '../components/Author'
 
 export default function Home({ allPostsData }) {
   return (

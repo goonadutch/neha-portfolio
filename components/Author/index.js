@@ -1,8 +1,8 @@
-import styles from "./layout.module.css"
+import styles from "../layout.module.css"
 import authorStyles from "./author.module.css"
-import utilStyles from "../styles/utils.module.css"
+import utilStyles from "../../styles/utils.module.css"
 import Link from "next/link"
-import { authorName, aboutAuthor, blogsAbout } from "./config"
+import { authorName, aboutAuthor, blogsAbout } from "../config"
 
 export default function Author() {
 	return (
