@@ -3,6 +3,7 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 import { authorName, siteTitle } from "./config"
+import TopBar from './TopBar'
 
 export default function Layout({ children, home }) {
   return (
@@ -19,6 +20,7 @@ export default function Layout({ children, home }) {
       <header className={styles.header}>
         {home ? (
           <>
+          <TopBar />
             <img
               priority="true"
               src="/images/profile.svg"
